@@ -1,0 +1,36 @@
+{
+  "name": "performance-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "High-performance real-time data visualization dashboard (Next.js App Router + Canvas/SVG, no chart libraries)",
+  "author": "Vanshika (Thapar Institute of Engineering & Technology, Patiala)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:profile": "next build --profile",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "benchmark": "node scripts/benchmark.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.25",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "server-only": "0.0.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "15.5.25",
+    "playwright-core": "^1.56.0",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}

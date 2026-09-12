@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-11T12:23:29.282Z",
+  "url": "http://localhost:3000",
+  "mode": "headless",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+  "navigation": {
+    "ttfbMs": 6.5,
+    "domContentLoadedMs": 34.700000047683716,
+    "loadMs": 55,
+    "fcpMs": 68,
+    "lcpMs": 68,
+    "cls": 0.000026949062715220386,
+    "transferKB": 185.9453125
+  },
+  "interactions": {
+    "eventsOver16ms": 593,
+    "p75Ms": 48,
+    "p98Ms": 48,
+    "maxMs": 48,
+    "scriptedInteractionSeconds": 3.1
+  },
+  "scenarios": [
+    {
+      "scenario": "10k points · 100 pts/s",
+      "avgFps": 60,
+      "p1LowFps": 59.5,
+      "p99FrameMs": 16.8,
+      "maxFrameMs": 16.8,
+      "droppedFrames": "0/479",
+      "drawMsAvg": 2.01,
+      "drawMsP95": 4.5,
+      "workerAggregateMs": 0.24,
+      "longTasks": 0,
+      "heapMB": 23.7
+    },
+    {
+      "scenario": "10k points · 2.5k pts/s",
+      "avgFps": 60,
+      "p1LowFps": 59.5,
+      "p99FrameMs": 16.8,
+      "maxFrameMs": 16.8,
+      "droppedFrames": "0/479",
+      "drawMsAvg": 1.94,
+      "drawMsP95": 4.8,
+      "workerAggregateMs": 0.21,
+      "longTasks": 0,
+      "heapMB": 19.2
+    },
+    {
+      "scenario": "50k points · 10k pts/s",
+      "avgFps": 60,
+      "p1LowFps": 59.5,
+      "p99FrameMs": 16.8,
+      "maxFrameMs": 16.8,
+      "droppedFrames": "0/479",
+      "drawMsAvg": 2.84,
+      "drawMsP95": 8.3,
+      "workerAggregateMs": 0.71,
+      "longTasks": 0,
+      "heapMB": 15.7
+    },
+    {
+      "scenario": "100k points · 10k pts/s",
+      "avgFps": 60,
+      "p1LowFps": 59.5,
+      "p99FrameMs": 16.8,
+      "maxFrameMs": 16.8,
+      "droppedFrames": "0/480",
+      "drawMsAvg": 3.77,
+      "drawMsP95": 4.4,
+      "workerAggregateMs": 1.41,
+      "longTasks": 0,
+      "heapMB": 16.7
+    },
+    {
+      "scenario": "250k points · 25k pts/s",
+      "avgFps": 60,
+      "p1LowFps": 59.5,
+      "p99FrameMs": 16.8,
+      "maxFrameMs": 16.8,
+      "droppedFrames": "0/479",
+      "drawMsAvg": 5.89,
+      "drawMsP95": 5.9,
+      "workerAggregateMs": 2.58,
+      "longTasks": 0,
+      "heapMB": 26.3
+    }
+  ],
+  "soak": {
+    "seconds": 600,
+    "samples": 60,
+    "heapStartMB": 7.08,
+    "heapEndMB": 7.05,
+    "heapMinMB": 5.63,
+    "heapMaxMB": 7.28,
+    "slopeMBPerHour": 1.29,
+    "fpsMin": 59,
+    "fpsAvg": 59.9
+  }
+}

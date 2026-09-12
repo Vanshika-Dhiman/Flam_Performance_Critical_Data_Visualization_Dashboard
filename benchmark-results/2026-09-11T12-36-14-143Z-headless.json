@@ -1,0 +1,89 @@
+{
+  "date": "2026-09-11T12:36:14.143Z",
+  "url": "http://localhost:3000",
+  "mode": "headless",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+  "navigation": {
+    "ttfbMs": 7.399999976158142,
+    "domContentLoadedMs": 46.89999997615814,
+    "loadMs": 74.20000004768372,
+    "fcpMs": 76,
+    "lcpMs": 76,
+    "cls": 0.000026949062715220386,
+    "transferKB": 186.068359375
+  },
+  "interactions": {
+    "eventsOver16ms": 593,
+    "p75Ms": 48,
+    "p98Ms": 48,
+    "maxMs": 48,
+    "scriptedInteractionSeconds": 3
+  },
+  "scenarios": [
+    {
+      "scenario": "10k points · 100 pts/s",
+      "avgFps": 60,
+      "p1LowFps": 59.5,
+      "p99FrameMs": 16.8,
+      "maxFrameMs": 16.8,
+      "droppedFrames": "0/479",
+      "drawMsAvg": 1.81,
+      "drawMsP95": 4.3,
+      "workerAggregateMs": 0.26,
+      "longTasks": 0,
+      "heapMB": 15.3
+    },
+    {
+      "scenario": "10k points · 2.5k pts/s",
+      "avgFps": 60,
+      "p1LowFps": 59.5,
+      "p99FrameMs": 16.8,
+      "maxFrameMs": 16.8,
+      "droppedFrames": "0/479",
+      "drawMsAvg": 1.96,
+      "drawMsP95": 5,
+      "workerAggregateMs": 0.19,
+      "longTasks": 0,
+      "heapMB": 18.8
+    },
+    {
+      "scenario": "50k points · 10k pts/s",
+      "avgFps": 60,
+      "p1LowFps": 59.5,
+      "p99FrameMs": 16.8,
+      "maxFrameMs": 16.8,
+      "droppedFrames": "0/479",
+      "drawMsAvg": 2.51,
+      "drawMsP95": 8.3,
+      "workerAggregateMs": 0.77,
+      "longTasks": 0,
+      "heapMB": 15.7
+    },
+    {
+      "scenario": "100k points · 10k pts/s",
+      "avgFps": 60,
+      "p1LowFps": 59.5,
+      "p99FrameMs": 16.8,
+      "maxFrameMs": 16.8,
+      "droppedFrames": "0/479",
+      "drawMsAvg": 3.06,
+      "drawMsP95": 4.2,
+      "workerAggregateMs": 1.46,
+      "longTasks": 0,
+      "heapMB": 19.4
+    },
+    {
+      "scenario": "250k points · 25k pts/s",
+      "avgFps": 59.6,
+      "p1LowFps": 59.5,
+      "p99FrameMs": 16.8,
+      "maxFrameMs": 33.4,
+      "droppedFrames": "3/476",
+      "drawMsAvg": 4.31,
+      "drawMsP95": 4.4,
+      "workerAggregateMs": 2.69,
+      "longTasks": 0,
+      "heapMB": 19.5
+    }
+  ]
+}
