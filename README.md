@@ -7,6 +7,8 @@ libraries** (no D3, no Chart.js) and **no state-management libraries** (just Rea
 
 > Submitted by **Vanshika**, Thapar Institute of Engineering & Technology (TIET), Patiala.
 
+**🔗 Live demo:** [https://flam-performance-critical-data-visu.vercel.app/dashboard](https://flam-performance-critical-data-visu.vercel.app/dashboard)
+
 The scenario is an observability dashboard for edge API latency. Five regions each report a latency sample and a request
 count every 10 s of simulated time, and a new batch arrives every 100 ms.
 
